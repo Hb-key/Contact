@@ -13,10 +13,10 @@
 #define SEX_MAX 10
 #define TELE_MAX 20
 #define ADDRE_MAX 20
-#define DEFAULT_CAPACITY 5
+#define DEFAULT_CAPACITY 5  //榛樿瀹归噺
 #define ADD_CAPACITY 2
 
-typedef struct PeoInfo {         //联系人信息
+typedef struct PeoInfo {         //脕陋脧碌脠脣脨脜脧垄
 	char name[NAME_MAX];
 	int age;
 	char sex[SEX_MAX];
@@ -24,7 +24,7 @@ typedef struct PeoInfo {         //联系人信息
 	char addre[ADDRE_MAX];
 }PeoInfo,*pPeoInfo;
 
-typedef struct Contact {         //通讯录信息
+typedef struct Contact {         //脥篓脩露脗录脨脜脧垄
 	pPeoInfo data;
 	int size;
 	int capacity;
